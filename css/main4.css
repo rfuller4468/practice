@@ -1,0 +1,199 @@
+/*****************BASE STYLES********************/
+
+body {
+font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+/*  font-family: 'Lancelot';font-size: 22px;
+*//**border-right: 5px solid black;
+border-top: 5px solid black;
+border-bottom: 5px solid black;*/
+background-color: #b5b5b5;
+font-variant: normal;
+/*  margin-left: 250px; /* Same as the width of the sidenav */
+max-width: 1600px;
+margin: auto;
+}
+.container{
+max-width: 1600px;
+
+}
+/*****************GRID STYLES********************/
+
+.full-width {
+max-width: 1200;
+}
+
+.half-width {
+max-width: 600px;
+margin: 0 auto;
+padding: 3px;
+float: left;
+}
+
+/****************HEADER STYLES*******************/
+
+header{
+border-bottom: 1px dotted maroon;
+text-align:center;
+text-transform: capitalize;
+
+}
+
+#amity{
+max-width: 100px;
+max-height: 176px;
+margin: 10px 35px;
+border: 5px ridge #FF0000;
+}
+
+#kare{
+max-width: 100px;
+max-height: 176px;
+margin: 10px 50px 10px 60px;
+border: 5px ridge #FF0000;
+}
+
+#open{
+display: block;
+}
+
+#teamamity{
+max-width: 280px;
+margin: 8px 10px;
+border: 5px ridge black;
+}
+
+#mySidebar{
+display: block;
+width: 250px;
+}
+
+.sidenav {
+height:100%;
+width: 250px;
+margin-left: auto;
+margin-right: auto;
+position: fixed;
+float:right;
+z-index: 1;
+top: 0;
+left: 0;
+background: linear-gradient(to left, black 51%, darkgrey 97%);
+/**background: linear-gradient(to left, black 51%, goldenrod 97%);**/
+overflow-x: auto;
+padding-top: 30px;
+padding-right: 5px;
+padding-left: 5px;
+font-variant: small-caps;
+
+
+}
+#close{
+display: none;
+}
+.sidenav a {
+
+
+padding-left: 16px;
+padding-right: 12px;
+margin: 15px auto;
+border-radius: 25px;
+border: 1px inset #FF0000;
+background: linear-gradient(to bottom, #ff0000 0%, #800000 100%);
+text-decoration: none;
+text-align: center;
+font-size: 21px;
+color: white;
+display: block;
+}
+
+.sidenav a:hover {
+color: black;
+border: 1px inset #FF0000;
+font-weight: bold;
+background: linear-gradient(to bottom right, red, yellow);
+}
+
+/**************CONTENT STYLES********************/
+.main {
+max-width: 1200px;
+margin-left: 250px; /* Same as the width of the sidenav */
+font-size: 22px; /* Increased text to enable scrolling */
+padding: 0px 10px;
+
+}
+
+h2{
+text-align: center;
+text-transform: capitalize;
+
+}
+
+p{
+font-variant: capitalize;
+display:block;
+max-width:inherit;
+}
+
+#pres {
+
+border: 4px inset #b5b5b5;
+width: 150px;
+margin: 10px;
+overflow: auto;
+float: right;
+}
+
+#shop {
+
+border: 4px inset #b5b5b5;
+width: 150px;
+margin: 10px;
+overflow: auto;
+float: right;
+}
+
+#cmmwide{
+width: 140px;
+border: 4px inset #b5b5b5;
+margin-left: 60px;
+float: left;
+}
+#cmmpart{
+float: left;
+width: 200px;
+border: 4px inset #b5b5b5;
+margin: 10px;
+}
+
+
+
+
+/****************FOOTER STYLES*******************/
+
+.footer {
+width: 100%;
+border-top: 1px dotted maroon;
+font-size: 8px;
+margin: 0px auto;
+padding: 0px;
+font-variant: small-caps;
+float: left;
+/**	text-align: center;**/
+}
+
+.footer #company{
+font-size: 11px;
+float: left;
+text-align: right;
+color: darkred;
+margin: 0px auto;
+width: 160px;
+font-weight: bold;
+}
+
+.footer #designer{
+font-size: 12px;
+float: right;
+font-size: inherit;
+}
+

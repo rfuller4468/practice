@@ -1,0 +1,263 @@
+body {
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  /*  font-family: 'Lancelot';font-size: 22px;
+  *//**border-right: 5px solid black;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;*/
+  background-color: #b5b5b5;
+  font-variant: normal;
+  /*  margin-left: 250px; /* Same as the width of the sidenav */
+  max-width: 1600px;
+}
+.container{
+  max-width: 1600px;
+
+}
+
+/***********GRID STYLE***********/
+
+
+.full-width {
+  max-width: 1600;
+}
+
+.half-width {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 3px;
+  float: left;
+}
+
+#amity{
+  max-width: 100px;
+  max-height: 176px;
+  margin: 10px 35px;
+  border: 5px ridge #FF0000;
+}
+body{margin: auto;}
+#kare{
+  max-width: 100px;
+  max-height: 176px;
+  margin: 10px 50px 10px 60px;
+  border: 5px ridge #FF0000;
+}
+#open{
+  display: block;
+}
+.footer #company{
+  font-size: 15px;
+  float: left;
+  text-align: right;
+  color: darkred;
+  margin: 0px auto;
+  width: 160px;
+  font-weight: bold;
+}
+
+#designer{
+  font-size: 12px;
+  float: right;
+  font-size: inherit;
+}
+
+#mySidebar{
+  display: block;
+  width: 250px;
+
+}
+.sidenav {
+  height:100%;
+  max-width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  position: fixed;
+  float:right;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: linear-gradient(to left, black 51%, darkgrey 97%);
+  /**background: linear-gradient(to left, black 51%, goldenrod 97%);**/
+  overflow-x: hidden;
+  padding-top: 30px;
+  padding-right: 5px;
+  padding-left: 5px;
+  font-variant: small-caps;
+
+
+}
+#close{
+  display: none;
+}
+.sidenav a {
+
+
+  padding-left: 16px;
+  padding-right: 12px;
+  margin: 15px auto;
+  border-radius: 25px;
+  border: 1px inset #FF0000;
+  background: linear-gradient(to bottom, #ff0000 0%, #800000 100%);
+  text-decoration: none;
+  text-align: center;
+  font-size: 21px;
+  color: white;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: black;
+  border: 1px inset #FF0000;
+  font-weight: bold;
+  background: linear-gradient(to bottom right, red, yellow);
+}
+
+.main {
+  max-width: 1200px;
+  margin-left: 250px; /* Same as the width of the sidenav */
+  font-size: 22px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+
+}
+
+p{
+  font-variant: capitalize;
+  display:block;
+
+}
+
+#cmmwide{
+  width: 140px;
+  border: 4px inset #b5b5b5;
+  margin-left: 60px;
+  float: left;
+}
+#cmmpart{
+  float: left;
+  width: 200px;
+  border: 4px inset #b5b5b5;
+  margin: 10px;
+}
+
+header{
+
+  border-bottom: 1px dotted maroon;
+  text-align:center;
+  text-transform: capitalize;
+
+}
+
+
+#teamamity{
+  max-width: 280px;
+  margin: 8px 10px;
+  border: 5px ridge black;
+
+
+}
+#pres {
+
+  border: 4px inset #b5b5b5;
+  width: 150px;
+  margin: 10px;
+  overflow: auto;
+  float: right;
+}
+
+#shop {
+
+  border: 4px inset #b5b5b5;
+  width: 150px;
+  margin: 10px;
+  overflow: auto;
+  float: right;
+}
+
+h2{
+  text-align: center;
+  text-transform: capitalize;
+
+}
+#q {
+  float: right;
+  font-size: 21px;
+  margin-left: 250px;
+}
+/*
+@media screen and (max-width: 1200px; min-width: fit-content;) {
+  .sidenav {display:block;padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+  #mySidebar{visibility: visible; display: block;width: 250px;}
+  #teamamity-logo {width: 50px;}
+  #open{display: none;}
+  .main, body{font-size: 12px;margin-left: 0px}
+
+} */
+/* @media screen and (max-width: 493px;){
+  #mySidebar{visibility: visible; display: block; text-align:center;}
+}
+/* @media screen and (max-width: 350px;) {
+  .sidenav {display:block;padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+  #mySidebar{display: block;}
+  #open{display: none;}
+} */
+/* @media only screen and (max-width: 600px){
+
+  .sidenav {display:none; padding-top: 15px;text-align: center;}
+  .sidenav a{display: none;float: none;
+    width: 100%; }
+    #mySidebar{display: none;}
+    .main{margin-left: auto;}
+    .footer{ margin-left: 0px;}
+    #open{display: inherit; float: left;}
+	#amity{width:85px;}
+    #close{padding-left: 16px;
+      padding-right: 12px;
+      margin: 15px;
+      margin: 15px auto;
+      border-radius: 25px;
+      border: 1px inset #FF0000;
+      background: linear-gradient(to bottom, #ff0000 0%, #800000 100%);
+      text-decoration: none;
+      text-align: center;
+      font-size: 21px;
+      color: white;
+      display: block;}
+
+    } */ */
+
+    /**
+    footer{
+    width: 100%;
+    border-top: 1px dotted maroon;
+    font-size: 8px;
+    margin: 0px auto;
+    padding: 0px;
+    font-variant: small-caps;
+    float: left;
+  }
+  **/
+  .footer {
+
+    width: 100%;
+    border-top: 1px dotted maroon;
+    font-size: 8px;
+    margin: 0px auto;
+    padding: 0px;
+    font-variant: small-caps;
+    float: left;
+    /**	text-align: center;**/
+  }
+  /*
+  #designer {
+
+  color:green;
+
+}
+#coinfo{
+float: right;
+} */
+#logo{
+  text-decoration: underline;
+
+}
