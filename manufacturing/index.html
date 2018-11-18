@@ -1,21 +1,61 @@
 <!doctype html>
 <html>
 <head>
- <meta charset="utf-8">
-        <title>Team Amity | Amity Mold Company and Kare Plastics</title>
-        <link rel="shortcut icon" href="../img/teamamity-logo.png">
-        <link rel="stylesheet" href="../css/main.css">
-        <link rel="stylesheet" href="../css/normalize.css">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Team Amity | Amity Mold Company and Kare Plastics</title>
+  <link rel="shortcut icon" href="../img/teamamity-logo.png">
+  <link rel="stylesheet" href="../css/w3.css">
+  <link rel="stylesheet" href="../css/main4.css">
+  <link rel="stylesheet" href="../css/media-queries.css">
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Lancelot' rel='stylesheet'>
+
 </head>
 <body>
-<div class="main">
-  <header>
+  <div class="main">
+    <header>
+      <button class="w3-button w3-xlarge w3-hide-large" id="open" onclick="w3_open()">&#9776;</button>
+      <div class="header-image">
+        <img id = "teamamity" src="../img/teamamity-logo.png" alt="teamamity"/>
+      </div>
+      <h1> welcome to our company </h1>
 
-    <div class="header-image">
-<img id = "teamamity" src="../img/teamamity-logo.png" alt="teamamity"/>
-</div>
-<h1>kare plastics - production</h1>
+      <div class="w3-sidebar w3-bar-block w3-collapse w3-card w3-animate-left sidenav" id="mySidebar">
+        <div class="main-image">
+          <img id = "amity" src="../img/amity.png" alt="amity"/>
+        </div>
+        <button class="w3-bar-item w3-button w3-large w3-hide-large" id="close" onclick="w3_close()">close</button>
+        <a href="..\splash.html" class="w3-bar-item w3-button">home</a>
+        <a href="..\index.html" class="w3-bar-item w3-button">the company</a>
+        <a href="..\quality\index.html" class="w3-bar-item w3-button">amity - quality</a>
+        <a href="..\quality\index.html" class="w3-bar-item w3-button">kare - quality</a>
+        <a href="..\production\index.html" class="w3-bar-item w3-button">production</a>
+        <a href="..\engineering\index.html" class="w3-bar-item w3-button">engineering</a>
+        <a href="..\manufacturing\index.html" class="w3-bar-item w3-button">manufacturing</a>
+        <a href="..\directions\index.html" class="w3-bar-item w3-button">directions</a>
+        <a href="..\contact\index.html" class="w3-bar-item w3-button">contact us</a>
+        <a href="..\employment\index.html" class="w3-bar-item w3-button">employment</a>
+        <a href="..\main\index.html" class="w3-bar-item w3-button">main</a>
+
+      <script>
+      function w3_open() {
+        document.getElementById("mySidebar").style.display = "block";
+
+
+      }
+      function w3_close() {
+        document.getElementById("mySidebar").style.display = "none";
+
+      }
+      {
+
+
+      }
+    </script>
+
+          </div>
   </header>
 
 
@@ -23,25 +63,6 @@
 
 
   <!-- Your content -->
-
-<div class="sidenav">
-<div class="main-image">
-<img id = "kare" src="../img/kare-logo.png" alt="kareplastic"/>
-</div>
-  <a href="../splash.html">home</a>
-  <a href="../index.html">the company</a>
-  <a href="../quality/index.html">amity - quality</a>
-  <a href="../karequality/index.html">kare - quality</a>
-  <a href="../production/index.html">production</a>
-  <a href="#contact">engineering</a>
-  <a href="#about">manufacturing</a>
-  <a href="#services">directions</a>
-  <a href="#clients">contact</a>
-  <a href="#contact">employment</a>
-  <a href="#contact">main</a>
-
-
-</div>
 
   <div class="full-width">
   <p>At Kare Plastics we have the productive capacity and flexibility to handle<img id="shop" src="../img/karemach.jpg" alt="kare"/> everything from short runs to high-volume production.
@@ -51,20 +72,20 @@
 
 </div>
      </div>
-     <footer>
-       <div class="full-width">
-     <div class="half-width" id = "designer">
-     <h2>&copy; Copyright Amity Mold Company 2018</h2>
-     </div>
-     <div class="half-width" id ="coinfo"><p>posted by: ***** *******
-     <br>contact information: <a href="mailto:someone@example.com">
-     someone@example.com</a>.<br>
-     1411 commerce park dr.<br>tipp city, oh 45371
-   </p>
-   </div>
-   </div>
-   </footer>
 
+         <footer class="footer">
+           <div class = "full-width">
+             <div class="half-width" id = "company">
+               <p>&copy; Copyright Amity Mold Company 2018</p>
+             </div>
+             <div class="half-width" id ="designer">
+               <p>posted by: ***** *******<br> contact information: <a href="mailto:someone@example.com">
+                 someone@example.com</a>.<br> 1411 commerce park dr.<br> tipp city, oh 45371
+               </p>
+             </div>
+           </div>
+         </footer>
+       </div>
 
 </body>
 </html>
