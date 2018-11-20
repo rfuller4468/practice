@@ -132,8 +132,17 @@ p{
 font-variant: capitalize;
 display:block;
 max-width:inherit;
+margin: 0;
+text-indent:2em; 
 }
 
+#a2057amc{
+  border: 4px inset #cccccc;
+  width: 150px;
+  margin: 10px;
+  overflow: auto;
+  float: right;
+}
 #pres {
 
 border: 4px inset #b5b5b5;
@@ -165,9 +174,36 @@ border: 4px inset #b5b5b5;
 margin: 10px;
 }
 
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+}
 
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
 
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
 
+#emp-p{
+  margin: 2px 10px;
+}
+
+#p2{
+  margin: 2px 10px;
+  margin-top:12px;
+}
+
+#emp-request{
+  color: blue;
+  text-decoration: underline;
+}
 /****************FOOTER STYLES*******************/
 
 .footer {
@@ -196,4 +232,3 @@ font-size: 12px;
 float: right;
 font-size: inherit;
 }
-
